@@ -14,6 +14,16 @@
     # Call stack in JavaScript runtime
  */
 
+/**
+ * @method push
+ * @method pop
+ * @method peek
+ * @method isEmpty
+ * @method size
+ * @method print
+ * @method clear
+ */
+
 class Stack {
   constructor() {
     this.items = [];
