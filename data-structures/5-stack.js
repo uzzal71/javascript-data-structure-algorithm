@@ -4,24 +4,23 @@
  3. A stack of plates. The last plate placed on top of the stack is also the first plate removed from the stack
  4. Stacks is an abstract data type. It is defined by its behavior rather then being a mathematical model
  5. The stack data structure supports two main operations: push and pop
-    # Push, which adds an element to the collection
-    # Pop, which removes the most recently added element from the collection
+    TODO: Push, which adds an element to the collection
+    TODO: Pop, which removes the most recently added element from the collection
 
- 6. Stack Usage
-    # Browser history traking
-    # Undo/Redo operation when typing
-    # Expression conversion
-    # Call stack in JavaScript runtime
- */
+ 6. NOTE: Stack Usage
+    TODO: Browser history traking
+    TODO: Undo/Redo operation when typing
+    TODO: Expression conversion
+    TODO: Call stack in JavaScript runtime
 
-/**
- * @method push
- * @method pop
- * @method peek
- * @method isEmpty
- * @method size
- * @method print
- * @method clear
+  7. NOTE: Stack Implementation
+    TODO: push(element) - add an element to the top of the stack
+    TODO: pop() - remove the most recently added element from the stack
+    TODO: peek() - get the value of the element at the top of the stack without removing it
+    TODO: isEmpty() - check if the stack is empty
+    TODO: size() - get the number of elements in the stack
+    TODO: print() - visualize the element in the stack
+    TODO: clear() - remove all elements from the stack
  */
 
 class Stack {
@@ -49,7 +48,7 @@ class Stack {
   }
 
   // TODO: Check top element in stack
-  peak() {
+  peek() {
     console.log(`Top element is ${this.items[this.count - 1]}`);
     return this.items[this.count - 1];
   }
@@ -92,7 +91,7 @@ stack.isEmpty();
 stack.push(1);
 stack.push(2);
 
-stack.peak();
+stack.peek();
 
 stack.push(3);
 
