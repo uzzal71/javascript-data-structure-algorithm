@@ -1,3 +1,4 @@
+// import
 const LinkedList = require("./8.2-linked-list-tail");
 
 class LinkedListQueue {
