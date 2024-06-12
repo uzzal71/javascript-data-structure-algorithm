@@ -24,3 +24,5 @@
  console.log(factorial(3));
  console.log(factorial(4));
  console.log(factorial(5));
+
+//  Big-O = O(n)
