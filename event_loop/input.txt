@@ -1,0 +1,1 @@
+Callback Function: It is the callback function that has further two arguments (err, data). If the operation fails to extract the data, the error shows what is the fault, and else data argument will contain the data from the file.
